@@ -1,3 +1,6 @@
+//버튼 활성화/비활성화 선택
+const btn_endisable = document.getElementById('auto_create');
+
 let pTagCount = 1;
 
 function create_pTag(){
@@ -25,8 +28,12 @@ let timer;
 
 function create_pTag_1sec(){
   timer = setInterval(create_pTag, 1000);
+  btn_endisable.innerText = '자동 생성 중...';
+  btn_endisable.disabled = true;
 }
 
 function stop_create_PTag_1sec(){
   clearInterval(timer);
+  btn_endisable.innerText = '1초마다 생성!';
+  btn_endisable.disabled = false;
 }
