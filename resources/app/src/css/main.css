@@ -1,0 +1,82 @@
+/* 아래의 모든 코드는 영역::코드로 사용 */
+::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+}
+
+::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #00BCD4; /* 스크롤바의 색상 */
+    
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+}
+
+#random_nickname {
+	width: 20%;
+	height: 80vh;
+	float:left;
+	margin-top: 30px;
+}
+
+#random_nickname_list {
+	white-space: pre;
+	overflow-y: scroll!important;
+	text-align: center;
+	margin: 20px;
+	height: 70vh;
+}
+
+.middle_sort {
+	text-align: center;
+}
+
+#iframe {
+	width: 80%;
+	height: auto;
+	float:left;
+	overflow:hidden;
+}
+
+iframe {
+	width: 100%;
+	height: 80vh;
+	overflow:hidden;
+}
+
+#footer {
+	width: 100%;
+	height: 50px;
+	float:left;
+	margin-top: 5px;
+	display: flex;
+  	justify-content: center;
+	text-align: center;
+}
+
+.titles {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#footer_first {
+	float: left;
+	margin-left: 250px;
+}
+
+#footer_second {
+	float: left;
+	margin-left: 50px;
+}
+
+#footer_third {
+	float: left;
+	margin-left: 50px;
+}
+
+#footer_fourth {
+	float: left;
+	margin-left: 50px;
+}

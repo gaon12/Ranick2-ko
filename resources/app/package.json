@@ -1,19 +1,16 @@
 {
-  "name": "random_nickname",
-  "version": "1.0.0",
-  "description": "randomly makes two-letter nicknames into Korean",
-  "main": "index.js",
+  "name": "ranick2-ko",
+  "version": "1.1.1",
+  "description": "Randomly makes two-letter nicknames into Korean!",
+  "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gaon12/ranick-2ko.git"
+    "url": "git+https://github.com/gaon12/Ranick2-ko.git"
   },
   "author": "gaon12",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gaon12/ranick-2ko/issues"
+    "url": "https://github.com/gaon12/Ranick2-ko/issues"
   },
-  "homepage": "https://github.com/gaon12/ranick-2ko#readme",
-  "dependencies": {
-    "electron-is-dev": "latest"
-  }
+  "homepage": "https://github.com/gaon12/Ranick2-ko#readme"
 }
