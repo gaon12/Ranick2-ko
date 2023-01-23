@@ -1,0 +1,130 @@
+/* 아래의 모든 코드는 영역::코드로 사용 */
+::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+}
+
+::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #008192; /* 스크롤바의 색상 */
+    
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+}
+
+body, select, option, .modal-content, .swal2-popup {
+	background-color: #2B2B2B!important;
+	color: #BBBBBB!important;
+}
+
+/*Settings*/
+.settings_popup {
+	margin-left: 20px;
+}
+
+.settings_title > h2 {
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
+
+.current_value {
+	font-weight: bolder;
+	margin-top: 10px;
+}
+
+#reset_btn {
+	margin: auto;
+	display: block;
+}
+/*Settings*/
+
+.bold {
+	font-weight: bolder!important;
+	font-size: 20px;
+}
+
+.short_margin_top {
+	margin-top: -5px;
+}
+
+.short_margin_bottom {
+	margin-bottom: -5px;
+}
+
+.middle_sort > button {
+	margin-bottom: 10px;
+}
+
+#random_nickname {
+	width: 20%;
+	height: 80vh;
+	float:left;
+	margin-top: 30px;
+}
+
+#random_nickname_list {
+	white-space: pre;
+	overflow-y: scroll!important;
+	text-align: center;
+	margin: 20px;
+	height: 70vh;
+}
+
+.modal-body {
+	text-align: left;
+}
+
+.middle_sort {
+	text-align: center;
+}
+
+#iframe {
+	width: 80%;
+	height: auto;
+	float:left;
+	overflow:hidden;
+}
+
+iframe {
+	width: 100%;
+	height: 80vh;
+	overflow:hidden;
+}
+
+#footer {
+	width: 100%;
+	height: 50px;
+	float:left;
+	margin-top: 5px;
+	display: flex;
+  	justify-content: center;
+	text-align: center;
+}
+
+.titles {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#footer_first {
+	float: left;
+	margin-left: 250px;
+}
+
+#footer_second {
+	float: left;
+	margin-left: 50px;
+}
+
+#footer_third {
+	float: left;
+	margin-left: 50px;
+}
+
+#footer_fourth {
+	float: left;
+	margin-left: 50px;
+}

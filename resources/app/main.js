@@ -3,7 +3,7 @@ const path = require('path');
  
 const createWindow = () => {
     const win = new BrowserWindow({
-        width: 1500,
+        width: 1800,
         height: 1000,
         webPreferences: { preload: path.join(__dirname, 'preload.js') }
     });
@@ -22,3 +22,5 @@ app.whenReady().then(() => {
 app.on('window-all-closed', () => {
     if (process.platform !== 'darwin') app.quit();
 });
+
+process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true';
