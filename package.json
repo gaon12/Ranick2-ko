@@ -1,0 +1,61 @@
+{
+  "name": "ranick2-ko",
+  "version": "1.3.2",
+  "description": "Randomly makes two-letter nicknames into Korean!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "deploy:osx": "electron-builder --mac",
+    "deploy:win": "npm run deploy:win32 && npm run deploy:win64",
+    "deploy:win32": "electron-builder --win nsis:ia32",
+    "deploy:win64": "electron-builder --win nsis:x64"
+},
+"build": {
+    "productName": "Ranick2-ko",
+    "appId": "xyz.gaon.prj.ranick2ko",
+    "asar": false,
+    "mac": {
+        "target": [
+            "default"
+        ]
+    },
+    "dmg": {
+        "title": "Ranick2-ko"
+    },
+    "win": {
+        "target": [
+            {
+                "target": "portable",
+                "arch": [
+                    "x64",
+                    "ia32"
+                ]
+            }
+        ]
+    },
+    "nsis": {
+        "oneClick": false,
+        "allowToChangeInstallationDirectory": false,
+        "createDesktopShortcut": true
+    },
+    "directories": {
+        "buildResources": "./resources/installer/",
+        "output": "./dist/",
+        "app": "."
+    }
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaon12/Ranick2-ko.git"
+  },
+  "author": "gaon12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaon12/Ranick2-ko/issues"
+  },
+  "homepage": "https://github.com/gaon12/Ranick2-ko#readme",
+  "devDependencies": {
+    "electron": "22.0.1",
+    "electron-builder": "23.6.0"
+  }
+}
